@@ -44,7 +44,7 @@ tilemaps = [
         "XXXXX   XXXXXXXX   X",
         "X                  X",
         "X                 XX",
-        "X F                X",
+        "X                  X",
         "XXXXXXXXXXXXXXXXXXXX",
     ],
     [
@@ -61,7 +61,7 @@ tilemaps = [
         "XLLX       X       X",
         "X          X       X",
         "X      XXX X  LLXLLX",
-        "X   F      X      FX",
+        "X          X      FX",
         "X   X      XXXXXXXXX",
         "XXLLLLLLLLLLLLLLLLLX",
     ],
@@ -80,7 +80,7 @@ tilemaps = [
         "X       X     XX   X",
         "XLXXXXLLLLLLLLX    X",
         "XXXXXXXXXXXXXXX   XX",
-        "X   F              X",
+        "X                  X",
         "XXXXXXXXXXXXXXXXXXXX",
     ],
     [
@@ -97,7 +97,7 @@ tilemaps = [
         "X                 XX",
         "X                  X",
         "X          L    X  X",
-        "X F  X   X L X     X",
+        "X    X   X L X     X",
         "XX         L       X",
         "XLLLLLLLLLLLLLLLLLLX",
     ],
@@ -116,7 +116,7 @@ tilemaps = [
         "XL    X     XXL  X X",
         "XLX   X   XXXLL  X X",
         "X    XX     XLL XX X",
-        "XF   LXX        XXFX",
+        "X    LXX        XXFX",
         "XXXXXXXXLLXXXXXXXXXX",
     ],
     [
@@ -270,7 +270,7 @@ def updateInstruction(lvl):
 pygame.init()
 pygame.mixer.init()
 disp = pygame.display.set_mode((dispW, dispH))
-pygame.display.set_caption("Platformer with Tilemap")
+pygame.display.set_caption("Dungeon Racers")
 clock = pygame.time.Clock()
 
 jumpSound = pygame.mixer.Sound("Gameproj/Jump.wav")
